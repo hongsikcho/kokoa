@@ -1,0 +1,46 @@
+.header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header_title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.header_text {
+  width: 60%;
+  opacity: 0.7;
+}
+.header img {
+  height: 200px;
+  width: 200px;
+}
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header_title {
+  font-size: 32px;
+  font-weight: 600;
+}
+.header_icons span {
+  margin-left: 25px;
+}
+.header_icons {
+  position: relative;
+}
+
+.screen-header {
+  z-index: 0;
+}
+.stauts_bar {
+  z-index: 1;
+}

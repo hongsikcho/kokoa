@@ -1,0 +1,21 @@
+.recommanded_friends {
+  margin: 25px 0px;
+  padding: 25px 0px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+.recommanded_friends_title {
+  margin-top: 0px;
+  font-size: 14px;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+.recommanded_friends span {
+  display: block;
+  margin: 110px 0px;
+  text-align: center;
+  font-size: 18px;
+  border-bottom: 1px solid white;
+  padding-bottom: 105px;
+}

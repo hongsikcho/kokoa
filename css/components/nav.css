@@ -1,0 +1,42 @@
+.nav {
+  background-color: black;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgb(121, 121, 121, 0.3);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_link {
+  position: relative;
+  color: #2e363e;
+}
+.nav_notification {
+  position: absolute;
+  right: -10px;
+  bottom: 17px;
+}
+#nav_link {
+  position: relative;
+}
+.nav_more {
+  background-color: tomato;
+  height: 6px;
+  width: 6px;
+  border-radius: 3px;
+  position: absolute;
+  left: 30px;
+}
+.nav_more1 {
+  background-color: tomato;
+  height: 6px;
+  width: 6px;
+  border-radius: 3px;
+  position: absolute;
+  right: -3px;
+  bottom: 18px;
+}
